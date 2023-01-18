@@ -1,24 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import TopTwentySongsContainer from './containers/Top20SongsChartBox'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <h2>Itunes Top 20 Songs Chart</h2>
+    <TopTwentySongsContainer></TopTwentySongsContainer>
+    </>
   );
 }
 
